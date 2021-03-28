@@ -62,15 +62,17 @@ Write a javaScript function that reverses an array
 let months = [April, May, June, July, August];
 
 */
-function four() {
-  var months = [April, May, June, July, August];
-  let arr = [];
-  arr.pop
-  for (var i = 1; i < months.length; i++) {
-    console.log(1);
-  }
-}
-four();
+// function four() {
+//   let months = ["April", "May", "June", "July", "August"];
+//   var arr = new Array();
+//   for (var i = months.length - 1; i >= 0; i--) {
+//     arr.push(months[i]);
+//   }
+//   console.log(arr);
+// }
+
+// four();
+
 /*
 5
 Write a javaScript function that returns the elements on even index in an array
@@ -78,17 +80,44 @@ Write a javaScript function that returns the elements on even index in an array
 let months = [April, May, June, July, August];
 >>>>> Result: May, July
 */
-
+// function five() {
+//   let months = ["April", "May", "June", "July", "August"];
+//   let sum = [];
+//   for (var i = 1; i < months.length; i += 2) {
+//     sum.push(months[i]);
+//   }
+//   console.log(sum);
+// }
+// five();
 /*
 6
 Write a javaScript function that compute the sum of the numbers in an array, using a for-loop
 */
+// function six() {
+//   var arr = [10, 30, 32, 34, 24];
+//   var sum = 0;
+//   for (var x = 0; x < arr.length; x++) {
+//     sum = sum + arr[x];
+//   }
+//   console.log(sum);
+// }
+// six();
 
 /*
 7
 Write a javaScript function that concatenates two arrays
 ** DON'T use any built-in functions**
 */
+function seven() {
+  // var arr1 = ["jenan", "salma", "tala"];
+  // var arr2 = ["omar", "ali", "amal"];
+  // var sum = [];
+  // for (var i = 0; i < arr1.length; i++) {
+  //   sum.push(arr1[i]+arr2[i]);
+  // }
+  // console.log(sum);
+}
+sever();
 
 /*
 8
