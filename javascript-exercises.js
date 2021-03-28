@@ -2,10 +2,16 @@
 1
 Write a javaScript function that prints the sum of the numbers 1 to 10, using a while loop
 */
-
-
-
-
+// function one() {
+//   var sum = 0;
+//   var x = 1;
+//   while (x <= 10) {
+//     sum += x;
+//     x++;
+//   }
+//   return sum;
+// }
+// console.log(one());
 /*
 2
 Write a javaScript function that prints a multiplication table for number 10
@@ -18,10 +24,17 @@ let number = 10;
                 10 * 10= 100
 */
 
-
-
-
-
+// function two() {
+//   var x = 1;
+//   let number = 10;
+//   while (x <= 10) {
+//     var sum = 0;
+//     sum = x * number;
+//     console.log(sum);
+//     x++;
+//   }
+// }
+// two();
 
 /*
 3
@@ -30,21 +43,34 @@ Write a javaScript function that returns the largest element in an array
 
 let numbers = [5, 8, 66, 1 , 40, 13, 27];
 */
-
-
-
+// function three() {
+//   let numbers = [5, 8, 66, 1, 40, 13, 27];
+//   var max = numbers[0];
+//   for (var i = 1; i < numbers.length; i++) {
+//     // console.log(1);
+//     if (numbers[i] > max) {
+//       max = numbers[i];
+//     }
+//   }
+//   console.log(max);
+// }
+// three();
 /*
 4
 Write a javaScript function that reverses an array
 ** DON'T use any built-in functions**
-
 let months = [April, May, June, July, August];
+
 */
-
-
-
-
-
+function four() {
+  var months = [April, May, June, July, August];
+  let arr = [];
+  arr.pop
+  for (var i = 1; i < months.length; i++) {
+    console.log(1);
+  }
+}
+four();
 /*
 5
 Write a javaScript function that returns the elements on even index in an array
@@ -53,17 +79,10 @@ let months = [April, May, June, July, August];
 >>>>> Result: May, July
 */
 
-
-
-
-
 /*
 6
 Write a javaScript function that compute the sum of the numbers in an array, using a for-loop
 */
-
-
-
 
 /*
 7
@@ -71,32 +90,17 @@ Write a javaScript function that concatenates two arrays
 ** DON'T use any built-in functions**
 */
 
-
-
-
-
 /*
 8
 Write a javaScript function that sorts an array
 ** DON'T use any built-in functions**
 */
 
-
-
-
-
-
 /*
 9
 Write a javaScript function that sorts an array
 ** DON'T use any built-in functions**
 */
-
-
-
-
-
-
 
 /*
 10
@@ -107,17 +111,10 @@ let numbers = [8, 0, 1, 5, 3];
 >>>>> Result: [0, 1, 3, 5, 8];
 */
 
-
-
-
-
 /*
 11
 Write a javaScript function that counts the number of vowel letters in the string
 */
-
-
-
 
 /*
 12
@@ -128,18 +125,10 @@ let numbers = [10, 5, 3, 8, 1, 6, 9];
                 Odd numbers [5, 3, 1, 9]
 */
 
-
-
-
-
-
 /*
 13
 Write a javaScript function that calculates the factorial of any number
 */
-
-
-
 
 /*
 14
@@ -149,11 +138,6 @@ Write a javaScript function that finds the second minmum number of an array
 let numbers = [10, 5, 3, 8, 1, 6, 9];
 >>>>> Result:   3
 */
-
-
-
-
-
 
 /*
 15
