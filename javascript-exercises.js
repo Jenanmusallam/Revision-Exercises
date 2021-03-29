@@ -108,28 +108,20 @@ Write a javaScript function that compute the sum of the numbers in an array, usi
 Write a javaScript function that concatenates two arrays
 ** DON'T use any built-in functions**
 */
-function seven() {
-  // var arr1 = ["jenan", "salma", "tala"];
-  // var arr2 = ["omar", "ali", "amal"];
-  // var sum = [];
-  // for (var i = 0; i < arr1.length; i++) {
-  //   sum.push(arr1[i]+arr2[i]);
-  // }
-  // console.log(sum);
-}
-sever();
 
-/*
-8
-Write a javaScript function that sorts an array
-** DON'T use any built-in functions**
-*/
-
-/*
-9
-Write a javaScript function that sorts an array
-** DON'T use any built-in functions**
-*/
+// function seven() {
+//   var arr1 = ["jenan", "salma", "tala"];
+//   var arr2 = ["omar", "ali", "amal"];
+//   var sum = [];
+//   for (var i = 0; i < arr1.length; i++) {
+//     sum.push(arr1[i]);
+//   }
+//   for (var y = 0; y < arr2.length; y++) {
+//     sum.push(arr2[y]);
+//   }
+//   console.log(sum);
+// }
+// sever();
 
 /*
 10
@@ -153,7 +145,21 @@ let numbers = [10, 5, 3, 8, 1, 6, 9];
 >>>>> Result:   Even numbers [10, 8, 6]
                 Odd numbers [5, 3, 1, 9]
 */
-
+function twelve() {
+  let numbers = [10, 5, 3, 8, 1, 6, 9];
+  var even = [];
+  var odd = [];
+  for (var i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 == 0) {
+      even.push(numbers[i]);
+    } else {
+      odd.push(numbers[i]);
+    }
+  }
+  console.log("even = " + even);
+  console.log("odd = " + odd);
+}
+twelve();
 /*
 13
 Write a javaScript function that calculates the factorial of any number
